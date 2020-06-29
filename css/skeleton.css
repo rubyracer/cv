@@ -401,6 +401,16 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+.border {
+  border: 0 solid transparent;
+  border-radius: 50px;
+}
+
+.border-icon {
+  border: 5px solid rgba(9, 179, 185, 0.308);
+  border-radius: 20px;
+}
+
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
